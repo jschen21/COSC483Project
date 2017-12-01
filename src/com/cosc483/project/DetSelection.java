@@ -23,5 +23,12 @@ public class DetSelection {
         }
 
         int m = DetSelect(medians, n/10);
+
+        //partition L into L1<M, L2=M, L3>M
+        //if (k <= length(L1))
+            //return select(L1,k)
+        //else if (k > length(L1)+length(L2))
+            //return select(L3,k-length(L1)-length(L2))
+        //else return M
     }
 }
