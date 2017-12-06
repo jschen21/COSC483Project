@@ -45,10 +45,10 @@ public class RandQuickSort
         return leftPtr;
     }
 
-    public static void swap(int[] array, int dex1, int dex2)
+    public static void swap(int[] array, int a, int b)
     {
-        int temp = array[dex1];
-        array[dex1] = array[dex2];
-        array[dex2] = temp;
+        int temp = array[a];
+        array[a] = array[b];
+        array[b] = temp;
     }
 }
